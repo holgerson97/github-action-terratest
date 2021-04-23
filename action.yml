@@ -1,0 +1,6 @@
+# action.yml
+name: 'Terratest'
+description: 'Test your Terraform configuration using Terratest.'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
